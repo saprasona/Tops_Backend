@@ -55,7 +55,9 @@ const Geocodedata = (city,callback)=>{
             reject(err)
             
         })
-    })  
+    })
+
+    
     
     }
 module.exports={Geocodedata}

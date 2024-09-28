@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <script src="/js/demo.js" defer></script>
+</head>
+<body>
+    <h1>World Clock</h1>
+    <p>City: <span id="cityname"></span></p>
+    <p>Time: <span id="time"></span></p>
+    <p>Date: <span id="date"></span></p>
+    <p>Day: <span id="day"></span></p>
+
+    <!-- Select area and city -->
+    <select id="area">
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <!-- Add other areas as needed -->
+    </select>
+
+    <select id="location">
+        <option value="Kolkata">Kolkata</option>
+        <option value="London">London</option>
+        <!-- Add other cities as needed -->
+    </select>
+
+    <button id="getTimeButton">Get Time</button>
+</body>
+</html>

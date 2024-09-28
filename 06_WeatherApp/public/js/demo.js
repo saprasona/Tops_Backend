@@ -1,30 +1,3 @@
-
-// const Weatherdata = () =>{
-    
-//     const city = document.getElementById("search").value
-    
-//     fetch(`/weather?city=${city}`).then(data=>{
-
-//         return data.json()
-
-//     }).then(result=>{
-//         // console.log(result);
-
-//         cityname.innerHTML=result.City
-//         temp.innerHTML=result.Temp
-//         pressure.innerHTML=result.Pressure
-//         humidity.innerHTML=result.Humidity
-//         lat.innerHTML=result.Lat
-//         lng.innerHTML=result.Lng
-
-//     }).catch(err=>{
-//         console.log(err);
-//     })
-// }
-
-
-
-
 var headers = new Headers();
 headers.append("X-CSCAPI-KEY", "TnhkcGRwNDR5NEdQcWFZd2xGMXhJT3FKbnBGSXBzVW1MT0o5a0tESA==");
 
