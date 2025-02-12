@@ -8,9 +8,5 @@ async function getData(){
     for(index in data){
         str+=`<h1>${index}:${data[index]}</h1>`;
     }
-    document.getElementById('result').innerHTML = str;
-
-
-    
-   
+    document.getElementById('result').innerHTML = str; 
 }

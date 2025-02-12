@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "mongodb": "^6.12.0"
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "hbs": "^4.2.0",
+    "mongodb": "^6.13.0"
   }
 }
